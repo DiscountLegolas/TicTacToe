@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function codeAddress() {
+            var player1name=localStorage.getItem('player1name');
+            document.querySelector('#turn').innerHTML=(player1name+'s turn');
+        }
+        window.onload = codeAddress;
+        </script>
+  </head>
+  <body>
+    <p id="turn"></p>
+    <div id="tictac" class="tictactoegrid">
+      <div id="first" class="grid-item" onclick="TClick('first')"></div>
+      <div id="second" class="grid-item" onclick="TClick('second')"></div>
+      <div id="third" class="grid-item" onclick="TClick('third')"></div>
+      <div id="fourth" class="grid-item" onclick="TClick('fourth')"></div>  
+      <div id="fifth" class="grid-item" onclick="TClick('fifth')"></div>
+      <div id="sixth" class="grid-item" onclick="TClick('sixth')"></div>
+      <div id="seventh" class="grid-item" onclick="TClick('seventh')"></div>
+      <div id="eighth" class="grid-item" onclick="TClick('eighth')"></div>
+      <div id="nineth" class="grid-item" onclick="TClick('nineth')"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

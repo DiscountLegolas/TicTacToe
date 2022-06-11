@@ -1,0 +1,24 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fcbe24;
+    background-color: #18222d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #fname{
+    margin-right: 50px;
+  }
+  #sname{
+    margin-right: 10px;
+  }
+  .tictactoegrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:blue;
+  }
+  .grid-item{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding:20px;
+  }
